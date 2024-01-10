@@ -1,8 +1,5 @@
 create or replace TABLE EXAMPLE_DB.PUBLIC.USERS (
-    ID INT,
-    FIRST_NAME VARCHAR,
-    LAST_NAME VARCHAR,
-    EMAIL VARCHAR
+    result varchar
 );
 
 copy into EXAMPLE_DB.PUBLIC.USERS
