@@ -3,7 +3,7 @@ create or replace TABLE EXAMPLE_DB.PUBLIC.USERS (
 );
 
 copy into EXAMPLE_DB.PUBLIC.USERS
-    from s3://mybucket/users.csv
+    from s3://frostyfridaychallenges/challenge_1/
     file_format = (
         type = csv
         field_delimiter = ','
